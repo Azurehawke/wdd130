@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family-font-name&family=optional-2nd-font-name&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #8DE4FF;
+    --secondary-color: #87CBAC;
+    --accent1-color: #7A7978;
+    --accent2-color: #8AC4FF;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Playfair+Display', serif;
+
+    --nav-background-color: ;
+    --nav-link-color: ;
+    --nav-hover-link-color: ;
+    --nav-hover-background-color: ;
+}
