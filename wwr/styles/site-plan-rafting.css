@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family-font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Playfair Display');
 
 body {
     font-family: var(--paragraph-font);
@@ -13,10 +13,41 @@ body {
     --accent2-color: #8AC4FF;
 
     --heading-font: 'Roboto', serif;
-    --paragraph-font: 'Playfair+Display', serif;
+    --paragraph-font: 'Playfair Display', serif;
 
     --nav-background-color: ;
     --nav-link-color: ;
     --nav-hover-link-color: ;
     --nav-hover-background-color: ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2em;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
