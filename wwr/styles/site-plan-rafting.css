@@ -13,7 +13,7 @@ body {
     --accent2-color: #8AC4FF;
 
     --heading-font: 'Roboto', serif;
-    --paragraph-font: 'Playfair Display', serif;
+    --paragraph-font: 'Roboto:light', serif;
 
     --nav-background-color: ;
     --nav-link-color: ;
@@ -50,4 +50,8 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-back);
+}
+
+header {
+    padding: 20px;
 }
