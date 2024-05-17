@@ -2,7 +2,6 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
     padding: 20px;
 }
 
@@ -55,3 +54,9 @@ nav a:hover {
 header {
     padding: 20px;
 }
+
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
