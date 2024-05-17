@@ -55,8 +55,13 @@ header {
     padding: 20px;
 }
 
-header, footer {
+header, footer, .grid {
     max-width: 840px;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
